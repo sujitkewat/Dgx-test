@@ -18,9 +18,9 @@ def is_enabled(value, default):
 
 # Bot information 
 SESSION = environ.get('SESSION', 'TechVJ')
-API_ID = environ.get("API_ID", "23543053")
-API_HASH = environ.get("API_HASH", "95fd5a138ccb236fe01cd5af371c9f13")
-BOT_TOKEN = environ.get("BOT_TOKEN", "8167932231:AAHdiDeJTvYJwr7T-Hs_3wDk2yrKMOAv7ko") 
+API_ID = environ.get("API_ID", "29034951")
+API_HASH = environ.get("API_HASH", "cfc8448de6746a6ccf9dc1812cf1c8f7")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7541077255:AAFYolmjmjUKRavFLTNF3MPSImc26lxX4nE") 
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -31,24 +31,24 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 PICS = (environ.get('PICS', 'https://ibb.co/mCpcqb8z')).split()
 
 # Admins, Channels & Users *
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6387781595').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002257450133').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1328531459').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002360843795 -1002385710854').split()]
 
-AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '').split()]
+AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002327269274').split()]
 
 # MongoDB information *
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://moneytag:micromax@cluster0.i7exq.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Clusr0")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'crazy_flez')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Letmefilterbot:Letmefilterbot@letmefilterbot.kuzj9e0.mongodb.net/?retryWrites=true&w=majority&appName=Letmefilterbot")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Letmefilterbot")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'crazy_filez')
 
 # LOG CHANNELS *
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002257450133'))
-LAZY_GROUP_LOGS = int(environ.get('LAZY_GROUP_LOGS', '-1002257450133'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002479617411'))
+LAZY_GROUP_LOGS = int(environ.get('LAZY_GROUP_LOGS', '-1002479617411'))
 
 # General --- 
-ADMIN_USRNM = environ.get('ADMIN_USRNM', 'vjbots_bot') # WITHOUT @
-MAIN_CHANNEL_USRNM = environ.get('MAIN_CHANNEL_USRNM','vj_botz') # WITHOUT @
-MOVIE_GROUP_USERNAME = environ.get('MOVIE_GROUP_USERNAME', "+cBX3YJbHToU0ZjNl") #[ without @ ]
+ADMIN_USRNM = environ.get('ADMIN_USRNM', 'MR_ABHAY_K') # WITHOUT @
+MAIN_CHANNEL_USRNM = environ.get('MAIN_CHANNEL_USRNM','MOVIE_MINES_UPDATE') # WITHOUT @
+MOVIE_GROUP_USERNAME = environ.get('MOVIE_GROUP_USERNAME', "AK_BOTZ_UPDATE") #[ without @ ]
 
 # Others
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '')
@@ -207,6 +207,7 @@ OUO_IO_API_KEY = ""
 MAX_MESSAGE_LENGTH = 4096
 PROCESS_MAX_TIMEOUT = 0
 DEF_WATER_MARK_FILE = ""
+
 
 
 

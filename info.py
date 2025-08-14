@@ -35,7 +35,7 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002360843795 -1002385710854').split()]
 
 AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002327269274 -1002420893262').split()]
-
+LAZY_DIVERTING_CHANNEL_ID = environ.get('LAZY_DIVERTING_CHANNEL_ID', '-1002305030357').split()
 # MongoDB information *
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Letmefilterbot:Letmefilterbot@letmefilterbot.kuzj9e0.mongodb.net/?retryWrites=true&w=majority&appName=Letmefilterbot")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Letmefilterbot")
@@ -207,6 +207,7 @@ OUO_IO_API_KEY = ""
 MAX_MESSAGE_LENGTH = 4096
 PROCESS_MAX_TIMEOUT = 0
 DEF_WATER_MARK_FILE = ""
+
 
 
 

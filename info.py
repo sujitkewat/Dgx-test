@@ -52,7 +52,7 @@ MOVIE_GROUP_USERNAME = environ.get('MOVIE_GROUP_USERNAME', "AK_BOTZ_UPDATE") #[ 
 
 # Others
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '')
-P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
+P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), False)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "📂<b>File Name:</b> ⪧ {file_caption}")
@@ -207,6 +207,7 @@ OUO_IO_API_KEY = ""
 MAX_MESSAGE_LENGTH = 4096
 PROCESS_MAX_TIMEOUT = 0
 DEF_WATER_MARK_FILE = ""
+
 
 
 
